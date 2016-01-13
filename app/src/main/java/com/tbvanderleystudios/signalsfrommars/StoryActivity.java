@@ -1,0 +1,29 @@
+package com.tbvanderleystudios.signalsfrommars;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+
+public class StoryActivity extends AppCompatActivity {
+
+    // This is used for our TAG during log calls.
+    public static final String TAG = StoryActivity.class.getSimpleName();
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_story);
+
+        Intent intent = getIntent();
+        String name = intent.getStringExtra("NAME_VALUE");
+
+        // This is a null check to prevent hard crashes.
+        if(name == null) {
+            name = "Friend";
+        }
+
+        Log.d(TAG, "The name entered is " + name + ".");
+    }
+
+}
