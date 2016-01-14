@@ -39,8 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/buttonChoice2"
         android:text="@string/page_0_choice_0"
-        android:background="@android:color/white"
-        android:textColor="#ff3A8AEC"/>
+        style="@style/WhiteButton"/>
 
     <Button
         android:id="@+id/buttonChoice2"
@@ -49,6 +48,7 @@
         android:layout_alignParentBottom="true"
         android:text="@string/page_0_choice_1"
         android:background="@android:color/white"
-        android:textColor="#ff3A8AEC"/>
+        android:textColor="#ff3A8AEC"
+        style="@style/WhiteButton"/>
 
 </RelativeLayout>

@@ -8,4 +8,8 @@
         <item name="colorAccent">#cccccc</item>
     </style>
 
+    <style name="WhiteButton">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">#FF3A8AEC</item>
+    </style>
 </resources>
