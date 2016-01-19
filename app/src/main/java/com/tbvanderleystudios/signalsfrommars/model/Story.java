@@ -49,4 +49,8 @@ public class Story {
                 R.string.page_6_text
         );
     }
+
+    public Page getPage(int pageNumber) {
+        return mPages[pageNumber];
+    }
 }

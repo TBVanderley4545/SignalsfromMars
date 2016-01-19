@@ -20,4 +20,5 @@
     <string name="page_3_choice_1">Continue towards the faint light</string>
     <string name="page_4_choice_0">Explore the coordinates</string>
     <string name="page_4_choice_1">Return to Earth</string>
+    <string name="play_again">PLAY AGAIN</string>
 </resources>
